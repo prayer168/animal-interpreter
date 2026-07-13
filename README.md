@@ -64,7 +64,7 @@ npm run build
 - `css/`：主視覺、動畫與響應式規則
 - `js/`：導覽、互動、測驗與進度保存
 - `data/`：教材內容、題庫、資源與課綱對應
-- `assets/images/`：Facebook／Open Graph 預覽圖
+- `public/assets/images/`：Facebook／Open Graph 預覽圖
 - `docs/`：教材藍圖、教案、參考資料與測試報告
 
 ## 使用技術
@@ -83,6 +83,5 @@ HTML5、CSS3、原生 JavaScript、SVG、JSON、Vite、GitHub Actions 與 GitHub
 
 - 程式碼：MIT License。
 - 教材文字與自製 SVG：CC BY 4.0。
-- `assets/images/animal-interpreter-og.png`：本專案 AI 輔助生成分享封面，僅隨教材使用。
+- `public/assets/images/animal-interpreter-og.png`：本專案 AI 輔助生成分享封面，僅隨教材使用。
 - 外部資源著作權歸原網站所有，僅提供連結與簡介；詳見 `docs/references.md`。
-

@@ -22,5 +22,5 @@
 ## 圖像與授權
 
 - 教學 SVG 圖解均為本專案原創程式繪製，採 CC BY 4.0。
-- Facebook／Open Graph 封面 `assets/images/animal-interpreter-og.png` 為本專案 AI 輔助生成，僅隨教材使用。
+- Facebook／Open Graph 封面 `public/assets/images/animal-interpreter-og.png` 為本專案 AI 輔助生成，僅隨教材使用。
 - 外部網站、文字、照片與商標的權利歸原權利人所有；本教材只提供連結與自撰摘要，不重製外部內容。
