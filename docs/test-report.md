@@ -64,6 +64,9 @@
 - 公開頁面：HTTP 200，`text/html; charset=utf-8`
 - 分享圖片：HTTP 200，`image/png`
 - 公開圖片尺寸：1200×630
+- `data/content.json`、`data/quiz.json`、`data/resources.json`：HTTP 200，`application/json`
+- 公開版瀏覽器實測：8 個頁籤、6 則生活觀察、8 筆資源與測驗選項均成功渲染
+- 公開版瀏覽器錯誤與失敗請求：0
 - `og:url`：正確的 HTTPS 教材網址
 - `og:image`：正確的 HTTPS 公開圖片網址
 - `og:type`、標題、描述、圖片寬高、替代文字：完整
