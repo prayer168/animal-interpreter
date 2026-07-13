@@ -1,2 +1,67 @@
-[]
+[
+  {
+    "title": "臺北市立動物園教育資源",
+    "url": "https://www.zoo.gov.taipei/Content_List.aspx?n=73B22E6C3181E542",
+    "type": "學習單與數位媒體",
+    "grade": "國小中高年級",
+    "description": "從動物園的學習專區延伸觀察動物、保育與環境教育。",
+    "checkedAt": "2026-07-13"
+  },
+  {
+    "title": "昆蟲腳下功夫特展介紹",
+    "url": "https://www.zoo.gov.taipei/News_Content.aspx?n=BD065B2FA7782989&s=02D8F41903A35271&sms=72544237BBE4C5F6",
+    "type": "科普閱讀",
+    "grade": "國小高年級",
+    "description": "比較昆蟲腳的構造、功能與不同環境中的生存方式。",
+    "checkedAt": "2026-07-13"
+  },
+  {
+    "title": "國立自然科學博物館線上學習資源",
+    "url": "https://www.nmns.edu.tw/ch/learn/emuseum/museum/index.html",
+    "type": "數位博物館",
+    "grade": "國小以上",
+    "description": "以互動遊戲、數位典藏與環景導覽探索生命科學。",
+    "checkedAt": "2026-07-13"
+  },
+  {
+    "title": "科博館環景線上博物館",
+    "url": "https://pano.nmns.edu.tw/",
+    "type": "360° 線上導覽",
+    "grade": "國小中高年級",
+    "description": "線上觀察動物、植物與自然史展品，練習找出形態特徵。",
+    "checkedAt": "2026-07-13"
+  },
+  {
+    "title": "科博館標本探索學習",
+    "url": "https://www.nmns.edu.tw/ch/learn/museum-education/naturalist/explore/index.html",
+    "type": "自主探索",
+    "grade": "國小三年級以上",
+    "description": "利用標本與任務觀察構造細節，培養比較與提問能力。",
+    "checkedAt": "2026-07-13"
+  },
+  {
+    "title": "科博館創新科技體驗",
+    "url": "https://www.nmns.edu.tw/ch/learn/emuseum/technology/index.html",
+    "type": "XR 與互動展示",
+    "grade": "國小五年級以上",
+    "description": "以高解析影像觀察昆蟲翅脈、體毛、紋理與不同生態環境。",
+    "checkedAt": "2026-07-13"
+  },
+  {
+    "title": "臺灣生命大百科",
+    "url": "https://taieol.tw/",
+    "type": "物種資料庫",
+    "grade": "國小高年級以上",
+    "description": "查詢臺灣物種的外形、分布、棲地與生態資料，練習資料查證。",
+    "checkedAt": "2026-07-13"
+  },
+  {
+    "title": "國家公園生物多樣性資料庫",
+    "url": "https://npgis.cpami.gov.tw/public/home",
+    "type": "生物多樣性資料庫",
+    "grade": "國小高年級以上",
+    "description": "認識國家公園的物種與棲地，延伸探究動物和環境的關係。",
+    "checkedAt": "2026-07-13"
+  }
+]
 

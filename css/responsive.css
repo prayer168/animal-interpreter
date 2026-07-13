@@ -1,2 +1,50 @@
-/* 響應式規則於內容階段建立。 */
+@media (max-width: 1080px) {
+  .mission-layout, .environment-stage, .strategy-layout { grid-template-columns: 1fr; }
+  .mission-visual { max-width: 720px; margin: 0 auto; }
+  .environment-visual, .strategy-visual { min-height: 330px; }
+  .evidence-chain { display: grid; grid-template-columns: repeat(3, 1fr); }
+  .chain-arrow { display: none; }
+  .application-grid { grid-template-columns: repeat(2, 1fr); }
+  .resource-grid { grid-template-columns: repeat(2, 1fr); }
+}
 
+@media (max-width: 760px) {
+  .site-shell { width: 100%; min-height: 100vh; margin: 0; border: 0; border-radius: 0; }
+  .app-header { grid-template-columns: auto 1fr; padding: 16px 18px 12px; }
+  .brand-mark { width: 45px; height: 45px; border-radius: 14px; font-size: 23px; }
+  .brand-copy h1 { font-size: 1.45rem; }
+  .eyebrow { font-size: .65rem; }
+  .progress-wrap { grid-column: 1 / -1; }
+  .tab-scroller { padding: 0 6px; }
+  .tab-list { justify-content: start; }
+  .tab-button { min-height: 52px; padding: 0 11px; font-size: .79rem; }
+  .tab-panel { padding: 26px 18px 42px; }
+  .section-heading { display: block; }
+  .section-heading h2 { margin-bottom: 14px; }
+  .observation-tip { max-width: none; }
+  .mission-copy h2 { font-size: 2.25rem; }
+  .mission-cards, .application-grid, .resource-grid, .lab-workspace, .evidence-stage { grid-template-columns: 1fr; }
+  .evidence-stage { min-height: unset; }
+  .concept-visual { min-height: 290px; }
+  .concept-copy { padding: 25px; }
+  .evidence-chain { grid-template-columns: 1fr; }
+  .evidence-cards, .drop-zones { gap: 8px; }
+  .evidence-card, .drop-zone { min-height: 130px; padding: 13px; }
+  .lab-footer { align-items: stretch; flex-direction: column; }
+  .completion-card { grid-template-columns: auto 1fr; }
+  .completion-card .primary-button { grid-column: 1 / -1; }
+  .bottom-nav { grid-template-columns: 1fr 1fr; position: sticky; bottom: 0; z-index: 20; padding: 10px 16px; }
+  .bottom-nav > p { display: none; }
+}
+
+@media (max-width: 460px) {
+  .mission-copy h2 { font-size: 1.85rem; }
+  .mission-visual svg { min-height: 270px; }
+  .speech-formula { padding: 14px; }
+  .evidence-cards, .drop-zones { grid-template-columns: 1fr; }
+  .application-grid { grid-template-columns: 1fr; }
+  .resource-grid { grid-template-columns: 1fr; }
+  .fact-row { grid-template-columns: 1fr; gap: 2px; }
+  .bottom-nav { font-size: .8rem; }
+  .nav-button strong { font-size: .74rem; }
+}
