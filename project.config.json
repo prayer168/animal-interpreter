@@ -2,7 +2,7 @@
   "title": "我是動物解說員",
   "projectName": "animal-interpreter",
   "repositoryName": "skill-1-2-3",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "level": "國小",
   "grade": "五年級",
   "subject": "自然科學",
@@ -12,7 +12,6 @@
   "audio": false,
   "progressTracking": true,
   "teacherGuide": true,
-  "repositoryUrl": "",
-  "pagesUrl": ""
+  "repositoryUrl": "https://github.com/prayer168/skill-1-2-3",
+  "pagesUrl": "https://prayer168.github.io/skill-1-2-3/"
 }
-
