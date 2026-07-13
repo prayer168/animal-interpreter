@@ -4,7 +4,7 @@
 
 - 中文教材名稱：我是動物解說員
 - 英文專案名稱：Animal Interpreter
-- GitHub repository：skill-1-2-3
+- GitHub repository：animal-interpreter（使用教材英文名稱）
 - 適用年級：國小五年級
 - 科目：自然科學
 - 學習時間：40 分鐘
@@ -57,4 +57,3 @@
 ## 預計檔案
 
 `index.html`、`css/`、`js/`、`data/`、`assets/`、`docs/`、專案設定、README、CHANGELOG、授權與測試報告。
-

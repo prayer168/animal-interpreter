@@ -2,9 +2,9 @@
 
 適合國小五年級自然科的分頁式互動教材。學生會觀察動物身體構造、比較環境條件、分析生存策略，最後使用「我觀察到……所以我推論……因為……」提出有證據的科學解說。
 
-- 教材網站：https://prayer168.github.io/skill-1-2-3/
-- GitHub repository：https://github.com/prayer168/skill-1-2-3
-- 目前版本：v1.0.0
+- 教材網站：https://prayer168.github.io/animal-interpreter/
+- GitHub repository：https://github.com/prayer168/animal-interpreter
+- 目前版本：v1.0.1
 
 ## 適用對象
 

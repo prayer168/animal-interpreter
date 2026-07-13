@@ -2,7 +2,7 @@
 
 檢核日期：2026-07-13
 
-版本：v1.0.0
+版本：v1.0.1
 
 環境：Vite 7.3.6、Chromium／Chrome、自動化桌機 1440×1000 與手機 390×844
 
@@ -60,7 +60,7 @@
 
 ## 公開部署與分享預覽檢查
 
-- 教材網址：`https://prayer168.github.io/skill-1-2-3/`
+- 教材網址：`https://prayer168.github.io/animal-interpreter/`
 - 公開頁面：HTTP 200，`text/html; charset=utf-8`
 - 分享圖片：HTTP 200，`image/png`
 - 公開圖片尺寸：1200×630

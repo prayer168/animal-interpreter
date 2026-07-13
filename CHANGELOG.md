@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.1] - 2026-07-13
+
+- Repository 改用教材英文名稱 `animal-interpreter`。
+- 更新 GitHub Pages、Open Graph、Twitter Card、README 與專案設定網址。
+- 保留原 `skill-1-2-3` repository 作為舊版部署紀錄。
+
 ## [1.0.0] - 2026-07-13
 
 - 正式發布「我是動物解說員」互動教材。
@@ -16,4 +22,3 @@
 
 - 初始化互動教材專案。
 - 完成教材藍圖與標準資料夾規劃。
-
