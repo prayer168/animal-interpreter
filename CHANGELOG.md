@@ -4,6 +4,7 @@
 
 - Repository 改用教材英文名稱 `animal-interpreter`。
 - 更新 GitHub Pages、Open Graph、Twitter Card、README 與專案設定網址。
+- 修正正式建置未包含教材 JSON 的問題，將資料移至 `public/data/`。
 - 保留原 `skill-1-2-3` repository 作為舊版部署紀錄。
 
 ## [1.0.0] - 2026-07-13

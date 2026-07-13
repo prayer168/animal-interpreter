@@ -56,4 +56,4 @@
 
 ## 預計檔案
 
-`index.html`、`css/`、`js/`、`data/`、`assets/`、`docs/`、專案設定、README、CHANGELOG、授權與測試報告。
+`index.html`、`css/`、`js/`、`public/data/`、`public/assets/`、`docs/`、專案設定、README、CHANGELOG、授權與測試報告。

@@ -63,7 +63,7 @@ npm run build
 - `index.html`：教材殼層、頁籤與分享資訊
 - `css/`：主視覺、動畫與響應式規則
 - `js/`：導覽、互動、測驗與進度保存
-- `data/`：教材內容、題庫、資源與課綱對應
+- `public/data/`：部署時公開載入的教材內容、題庫、資源與課綱對應
 - `public/assets/images/`：Facebook／Open Graph 預覽圖
 - `docs/`：教材藍圖、教案、參考資料與測試報告
 
