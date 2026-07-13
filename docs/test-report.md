@@ -8,7 +8,7 @@
 
 ## 結論
 
-本地正式建置與瀏覽器驗證通過。頁面有實質內容、無錯誤覆蓋層、無 JavaScript 主控台錯誤、桌機與手機皆無水平溢出。部署後的公開網址、HTTPS 圖片與分享 metadata 另於 GitHub Pages 上線後再做 HTTP 驗證。
+本地正式建置、瀏覽器驗證與 GitHub Pages 公開部署均通過。頁面有實質內容、無錯誤覆蓋層、無 JavaScript 主控台錯誤、桌機與手機皆無水平溢出；公開教材與分享圖片均可透過 HTTPS 正常取得。
 
 ## 功能檢查
 
@@ -57,3 +57,15 @@
 - 測驗抽查：作答後顯示答案與解釋
 - 自主學習卡：8
 - 瀏覽器主控台錯誤：0
+
+## 公開部署與分享預覽檢查
+
+- 教材網址：`https://prayer168.github.io/skill-1-2-3/`
+- 公開頁面：HTTP 200，`text/html; charset=utf-8`
+- 分享圖片：HTTP 200，`image/png`
+- 公開圖片尺寸：1200×630
+- `og:url`：正確的 HTTPS 教材網址
+- `og:image`：正確的 HTTPS 公開圖片網址
+- `og:type`、標題、描述、圖片寬高、替代文字：完整
+- `twitter:card=summary_large_image` 與對應標題、描述、圖片：完整
+- GitHub Pages workflow：build 與 deploy 均成功
