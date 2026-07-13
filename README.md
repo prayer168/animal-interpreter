@@ -4,7 +4,7 @@
 
 - 教材網站：https://prayer168.github.io/animal-interpreter/
 - GitHub repository：https://github.com/prayer168/animal-interpreter
-- 目前版本：v1.0.1
+- 目前版本：v1.1.0
 
 ## 適用對象
 

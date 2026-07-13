@@ -2,6 +2,7 @@ import { createProgress } from './progress.js';
 import { initNavigation } from './navigation.js';
 import { initEnvironment, initStrategy, initLab } from './interactions.js';
 import { initQuiz } from './quiz.js';
+import { structureSvgV2, appVisualV2 } from './animal-visuals.js';
 
 const TAB_IDS = ['mission', 'activity1', 'activity2', 'activity3', 'lab', 'applications', 'quiz', 'resources'];
 const ANIMAL_ICONS = ['🦆', '🦅', '🐇', '🐸'];
@@ -52,7 +53,7 @@ function renderStructure(items) {
   function show(index) {
     const item = items[index];
     selector.querySelectorAll('button').forEach((button, i) => button.classList.toggle('is-active', i === index));
-    stage.innerHTML = `<div class="concept-visual">${structureSvg(item.visual)}</div><div class="concept-copy"><p class="section-kicker">觀察對象 ${String(index + 1).padStart(2, '0')}</p><h3>${item.animal}</h3><div class="fact-row"><span>構造特徵</span><strong>${item.feature}</strong></div><div class="fact-row"><span>可能功能</span><strong>${item.function}</strong></div><div class="fact-row"><span>證據怎麼說</span><strong>${item.evidence}</strong></div></div>`;
+    stage.innerHTML = `<div class="concept-visual">${structureSvgV2(item.visual)}</div><div class="concept-copy"><p class="section-kicker">觀察對象 ${String(index + 1).padStart(2, '0')}</p><h3>${item.animal}</h3><div class="fact-row"><span>構造特徵</span><strong>${item.feature}</strong></div><div class="fact-row"><span>可能功能</span><strong>${item.function}</strong></div><div class="fact-row"><span>證據怎麼說</span><strong>${item.evidence}</strong></div></div>`;
   }
   selector.addEventListener('click', event => { const button = event.target.closest('[data-animal]'); if (button) show(Number(button.dataset.animal)); });
   show(0);
@@ -60,7 +61,7 @@ function renderStructure(items) {
 
 function renderApplications(items) {
   const grid = document.querySelector('#application-grid');
-  grid.innerHTML = items.map(item => `<article class="application-card"><div class="app-visual">${appVisual(item.visual)}</div><div class="application-copy"><span class="principle-tag">${item.principle}</span><h3>${item.title}</h3><p>${item.description}</p><p class="thought-question">想一想：${item.question}</p></div></article>`).join('');
+  grid.innerHTML = items.map(item => `<article class="application-card"><div class="app-visual">${appVisualV2(item.visual)}</div><div class="application-copy"><span class="principle-tag">${item.principle}</span><h3>${item.title}</h3><p>${item.description}</p><p class="thought-question">想一想：${item.question}</p></div></article>`).join('');
 }
 
 function renderResources(items) {
@@ -91,4 +92,3 @@ async function start() {
 }
 
 start();
-

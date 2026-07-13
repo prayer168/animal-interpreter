@@ -1,3 +1,5 @@
+import { environmentSvgV2, strategySvgV2 } from './animal-visuals.js';
+
 function environmentSvg(type) {
   if (type === 'cold') return `
     <svg viewBox="0 0 620 370" role="img" aria-label="北極熊在寒冷雪地，標示厚毛、脂肪層和小耳朵">
@@ -101,7 +103,7 @@ export function initEnvironment(environments) {
   function render(type) {
     const data = environments[type];
     buttons.forEach(button => button.classList.toggle('is-active', button.dataset.environment === type));
-    visual.innerHTML = environmentSvg(type);
+    visual.innerHTML = environmentSvgV2(type);
     visual.classList.toggle('is-animated', type === 'water');
     document.querySelector('#env-label').textContent = `${data.label}・${data.animal}`;
     document.querySelector('#env-feature').textContent = data.feature;
@@ -129,7 +131,7 @@ export function initStrategy(strategies) {
     document.querySelector('#strategy-example').textContent = item.example;
     steps.innerHTML = item.steps.map((text, i) => `<li class="${i === step ? 'is-current' : ''}">${text}</li>`).join('');
     document.querySelector('#strategy-note').textContent = item.note;
-    visual.innerHTML = strategySvg(strategy, step);
+    visual.innerHTML = strategySvgV2(strategy, step);
   }
 
   function stop() { clearInterval(timer); timer = null; }
@@ -200,4 +202,3 @@ export function initLab() {
     feedback.textContent = '已重設。先選一張證據卡，再找出最合理的觀察站。';
   });
 }
-
